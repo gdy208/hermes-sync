@@ -4,13 +4,19 @@ SOUL.md
 config.yaml
 .env
 .env.*
+profiles/
 
-# Dossiers système
+# Dossiers système Hermes
 *.lock
 *.log
 cache/
 state.db*
 .hermes_history
+
+# Fichiers système de Hermes skills
+skills/.bundled_manifest
+skills/.usage.json
+skills/.curator_state
 
 # Skills volumineuses ou spécifiques à l'hôte
 # (gérées par le script de sync via des règles d'exclusion)
