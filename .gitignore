@@ -20,3 +20,4 @@ skills/.curator_state
 
 # Skills volumineuses ou spécifiques à l'hôte
 # (gérées par le script de sync via des règles d'exclusion)
+scripts/
