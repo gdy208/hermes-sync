@@ -1,0 +1,16 @@
+# Fichiers intrinsèques à chaque instance — JAMAIS pousser
+memories/
+SOUL.md
+config.yaml
+.env
+.env.*
+
+# Dossiers système
+*.lock
+*.log
+cache/
+state.db*
+.hermes_history
+
+# Skills volumineuses ou spécifiques à l'hôte
+# (gérées par le script de sync via des règles d'exclusion)
